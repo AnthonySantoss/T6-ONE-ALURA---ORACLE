@@ -1,0 +1,361 @@
+body{
+    margin: 0;
+    background-color: #F5F5F5;
+}
+
+
+.flex-conteiner{
+    display: flex;
+    justify-content: center;
+    gap: 360px;
+}
+
+#logo{
+    display: flex;
+    align-items: center; 
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #464646;
+} 
+
+
+.menu{
+    display: flex;
+    gap: 32px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.email{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #464646;
+}
+
+
+.personagem{
+    width: 80px;
+    height: 80px;
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    
+}
+.conteudo  h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    color:#464646;
+}
+
+.conteudo  h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color:#464646;
+}
+
+.links{
+    display: flex;
+    gap: 32px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color:#464646;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.link a{
+    text-decoration: none;
+    color:#464646;
+}
+
+.material-symbols-outlined{
+    width: 24px;
+    height: 24px;
+    color:#464646;
+}
+
+.foto-perfil{
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+}
+
+.flex-conteudo{
+    background-color: #EAF2FD;
+    height: 383px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    padding-left: 150px;
+    padding-right: 385px;
+}
+
+.flex-conteudo h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color:#464646;
+}
+
+.skills-hobbies h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color:#464646;
+    text-align: center;
+}
+
+.hobbies-skills {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.skills{
+    width: 176px;
+    height: 174px;
+    background-color: #FFFFFF;
+}
+
+.hobbies{
+    width: 176px;
+    height: 174px;
+    background-color: #FFFFFF;
+}
+
+.formacao-academica {
+    height: 581px;
+    background-color: #EAF2FD;
+}
+
+.flex-formacao{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.formacao-academica h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color:#464646;
+    text-align: center;
+    padding-top: 82px;
+    padding-bottom: 32px;
+}
+
+.formacao{
+    width: 368px;
+    height: 286px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.academica{
+    width: 190px;
+    height: 130px;
+}
+
+.informacao-academica h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color:#464646;
+    margin-bottom: 0;
+}
+
+.informacao-academica p{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color:#464646;
+    margin-top:0 ;
+}
+
+.informacao-academica{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.experiencia-profissional h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color:#464646;
+    text-align: center;
+}
+
+.flex-experiencia{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+.experiencia{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.experiencia img{
+    width: 772px;
+    height: 426px;
+}
+
+.experiencia h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color:#464646;
+}
+
+.experiencia p {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color:#464646;
+}
+
+.button-1 {
+    width: 116px;
+    height: 51px;
+    border: #2A7AE4 solid 1px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2A7AE4;
+}
+
+.button-2 {
+    width: 116px;
+    height: 51px;
+    background-color: #2A7AE4;
+    border: #2A7AE4 solid 1px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.informacao-experiencia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-box{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.contato img{
+    height: 250px;
+}
+
+.contato{
+    height: 788px;
+    background-color: #EAF2FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato-informacao{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.contato-informacao h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #464646;
+}
+
+.contato-informacao p{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #464646;
+}
+
+.text {
+    width: 656px;
+    height: 56px;
+    border: none;
+}
+
+.text ::placeholder {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #464646;
+}
+
+.enviar{
+    width: 165px;
+    height: 51px;
+    background-color: #2A7AE4;
+    border: #2A7AE4 solid 1px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+textarea{
+    width: 656px;
+    height: 133px;
+    border: none;
+}
+
+textarea ::placeholder {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #464646;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 102px;
+    background-color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #464646;
+
+}
+
