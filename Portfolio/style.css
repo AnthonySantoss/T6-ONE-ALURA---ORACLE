@@ -423,7 +423,7 @@ footer{
 }
 
 /* Estilos para dispositivos com largura até 768px (tablet) */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 790px) {
     .flex-conteiner{
         display: flex;
         justify-content: center;
