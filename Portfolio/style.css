@@ -423,7 +423,7 @@ footer{
 }
 
 /*Dispositivo Tablet*/
-@media (max-width: 768px){
+@media (min-width: 414px) and (max-width: 720px){
     .flex-conteiner{
         gap: 200px;
     }
