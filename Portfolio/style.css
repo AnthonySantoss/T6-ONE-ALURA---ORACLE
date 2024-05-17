@@ -422,86 +422,44 @@ footer{
 
 }
 
-/* Estilos para dispositivos com largura até 768px (tablet) */
-@media only screen and (max-width: 790px) {
+/*Dispositivo Tablet*/
+@media (min-width: 768px){
     .flex-conteiner{
-        display: flex;
-        justify-content: center;
-        gap: 300px;
+        gap: 200px;
     }
-    
-    #logo{
-        display: flex;
-        align-items: center; 
-        font-family: "Raleway", sans-serif;
-        font-size: 16px;
-        font-weight: 700;
-        color: #464646;
-    } 
-    
-    
-    .assunto{
+    .assunto {
         display: none;
     }
-    
-    .apresentacao{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        height: 210px;
-        padding-left: 150px;
-        padding-right: 150px;
-        
-    }
-    
+
     .conteudo{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        height: 210px;   
     }
-    .conteudo  h1{
+
+    .conteudo h1{
         font-size: 22px;
     }
-    
-    .conteudo  h3{
-        font-size: 14px;
-    }
-    
-    .links{        
+    .conteudo h3{
         font-size: 16px;
     }
-    
-    .foto-perfil{
+
+    .foto-perfil {
         width: 146px;
         height: 146px;
-    } 
+    }
 
     .flex-conteudo{
-        background-color: #EAF2FD;
-        height: 286px;
-        display: flex;
-        flex-direction: column;
-        margin-top: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
+        height: 390px;
+        padding: 15px;
+        padding-left: 80px;
+        padding-right: 80px;
     }
-    
-    .flex-conteudo h1 {
-         font-size: 22px;
-    }
-    
-    .flex-conteudo p {
-        font-size: 14px;
-    }
-    
-    .flex-conteudo img {
-        width: 140px; 
-        height: 52px;
-    }
-}
 
-/* Estilos para dispositivos com largura até 480px (dispositivos móveis) */
-@media only screen and (max-width: 480px) {
-   
+    .flex-conteudo h1{
+        font-size: 22px;
+    }
+
+    .flex-conteudo p{
+        font-size: 14px;
+        
+    }
 }
-    
