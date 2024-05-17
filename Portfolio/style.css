@@ -466,9 +466,15 @@ footer{
     .hobbies-skills{
         display: flex;
         overflow-x: scroll;
+        padding: 50px;
     }
 
     .skills{
+        width: 224px;
+        height: 118px;
+    }
+
+    .hobbies{
         width: 224px;
         height: 118px;
     }
@@ -482,12 +488,13 @@ footer{
         padding-bottom: 20px;
     }
     .formacao{
+        width: 224px;
         height: 118px;
     }
 
     .formacao img {
-        width: 90px;
-        height: 90px;
+        width: 60px;
+        height: 60px;
     }
 
     .informacao-academica h3{
@@ -496,5 +503,23 @@ footer{
 
     .informacao-academica p{
         font-size: 14px;
+    }
+
+    .experiencia-profissional h1{
+        font-size: 22px;
+    }
+
+    .flex-experiencia img{
+        width: 704px;
+        height: 320px;
+    }
+
+    .experiencia{
+        flex-direction: column;
+    }
+
+    #decodificador {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
