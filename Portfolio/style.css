@@ -462,4 +462,39 @@ footer{
         font-size: 14px;
         
     }
+
+    .hobbies-skills{
+        display: flex;
+        overflow-x: scroll;
+    }
+
+    .skills{
+        width: 224px;
+        height: 118px;
+    }
+
+    .formacao-academica{
+        height: 291px;
+    }
+    .formacao-academica h1{
+        font-size: 22px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .formacao{
+        height: 118px;
+    }
+
+    .formacao img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .informacao-academica h3{
+        font-size: 16px;
+    }
+
+    .informacao-academica p{
+        font-size: 14px;
+    }
 }
