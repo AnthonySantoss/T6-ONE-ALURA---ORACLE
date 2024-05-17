@@ -544,4 +544,8 @@ footer{
         width: 500px;
     }
 
+    .contato-informacao button{
+        height: 40px;
+    }
+
 }
