@@ -554,9 +554,10 @@ footer{
 }
 
 /*dispositivo celular*/
-@media (min-width: 414px) and (max-width: 720px){
+@media (min-width: 300px) and (max-width: 720px){
     .flex-conteiner{
-        gap: 90px;
+        display: flex;
+        gap: 10px;
     }
     .flex-conteiner p{
         font-size: 16px;
@@ -617,13 +618,13 @@ footer{
     }
 
     .skills {
-        width: 160px;
-        height: 160px;
+        width: 130px;
+        height: 130px;
     }
 
     .hobbies {
-        width: 160px;
-        height: 160px;
+        width: 130px;
+        height: 130px;
     }
 
     .flex-formacao{
