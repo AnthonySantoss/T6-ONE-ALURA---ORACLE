@@ -554,3 +554,131 @@ footer{
 
 }
 
+/*dispositivo celular*/
+@media (min-width: 418px) and (max-width: 767px){
+    .flex-conteiner{
+        gap: 100px;
+    }
+    .flex-conteiner p{
+        font-size: 16px;
+    }
+    .personagem{
+        width: 24px;
+        height: 24px;
+    }
+
+    .email{
+        font-size: 16px;
+    }
+    .assunto{
+        display: none;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+    .foto-perfil{
+        width: 98px;
+        height: 98px;
+    }
+
+    .apresentacao h1{
+        font-size: 22px;
+    }
+
+    .apresentacao h3{
+        font-size: 14px;
+    }
+    .links{
+        font-size: 14px;
+        gap: 8px;
+    }
+
+    .flex-conteudo{
+        padding: 10px;
+        height: 460px;
+    }
+
+    .flex-conteudo h1{
+        font-size: 22px;
+    }
+
+    .flex-conteudo p{
+        font-size: 14px;
+    }
+    
+    .hobbies-skills{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skills-hobbies h1{
+        font-size: 22px;
+    }
+
+    .flex-formacao{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .flex-formacao-academica{
+        padding-left: 70px;
+    }
+
+    .formacao-academica h1{
+        font-size: 22px;
+    }
+    .formacao{
+        width: 296px;
+        height: 118px;
+    }
+
+    .academica{
+        width: 84px;
+        height: 84px;
+    }
+
+    .experiencia-profissional h1{
+        font-size: 22px;
+    }
+
+    .flex-experiencia img{
+        width: 296px;
+        height: 144px;
+    }
+
+    .experiencia{
+        flex-direction: column;
+    }
+
+    #decodificador {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contato-informacao{
+        padding: 10px;
+    }
+
+    .contato img {
+        display: none;
+    }
+
+    .contato h1 {
+        font: 22px;
+    }
+    .contato p {
+        font: 16px;
+    }
+
+    .text{
+        width: 296px;
+    }
+
+    textarea{
+        width: 296px;
+    }
+    
+}
