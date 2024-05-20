@@ -557,7 +557,7 @@ footer{
 /*dispositivo celular*/
 @media (min-width: 414px) and (max-width: 720px){
     .flex-conteiner{
-        gap: 100px;
+        gap: 90px;
     }
     .flex-conteiner p{
         font-size: 16px;
