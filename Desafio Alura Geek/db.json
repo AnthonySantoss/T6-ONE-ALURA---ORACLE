@@ -1,0 +1,16 @@
+{
+    "produtos": [
+      {
+        "id": 1,
+        "nome": "Super Man",
+        "preco": 10,
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp"
+      },
+      {
+        "id": 2,
+        "nome": "Super Man",
+        "preco": 10,
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp"
+      }
+    ]
+  }

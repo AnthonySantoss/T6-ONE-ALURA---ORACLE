@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    background: #5300C8;
+    box-shadow: 0px 7px 0.9px 0px rgba(0, 0, 0, 0.25);
+}
+
+main{
+    display: flex;
+    padding: 60px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 70px;
+    border-radius: 10px;
+}
+
+.titulo{
+    width: 578px;
+    color: #000;
+    text-align: center;
+    font-family: "Press Start 2P";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Produtos{
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+}
+.produto_conteiner{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.card_produto{
+    height: 258px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 3px solid #000;
+    background: #5D04D9;
+    box-shadow: -5px 6px 3.3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.imagem_produto{
+    width: 176px;
+    height: 174px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 5px;
+    border: 3px solid #000;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    margin: 10px;
+    margin-top: 48px;
+}
+
+.card_conteiner{
+    text-align: justify;
+    color: #FFF;
+    font-family: "IBM Plex Mono";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.card-preco-delete{
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    margin-bottom: 31px;
+    color: #FFF;
+}
+
+.material-symbols-outlined{
+    color: #FFF;
+}
+
+form{
+    display: flex;
+    width: 472px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+input{
+    height: 58px;
+    align-self: stretch;
+    border: #03318C solid;
+    border-radius: 22px;
+}
+
+input :placeholder-shown{
+    color: #03318C;
+    font-family: "IBM Plex Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.botao_conteiner{
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.botao1{
+    display: flex;
+    width: 188px;
+    height: 55px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "IBM Plex Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 15px;
+    background-color: #03318C;
+    border: #03318C solid 2px;
+}
+
+.botao2{
+    display: flex;
+    width: 188px;
+    height: 55px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: #03318C;
+    text-align: center;
+    font-family: "IBM Plex Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 15px;
+    background-color: #FFF;
+    border: #03318C solid 2px;
+}
+
+footer{
+    display: flex;
+    padding: 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    background: #5300C8;
+    box-shadow: 0px -10px 9.5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.autor{
+    color: #FFF;
+    text-align: center;
+    font-family: "IBM Plex Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    text-transform: uppercase;
+}
+
+/*Para celular*/
+
+@media (min-width: 300px) and (max-width: 720px){
+    header{
+        width: 584px;
+        height: 96px;
+    }  
+
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .logo{
+        width: 374px;
+    }
+
+    .adicionar_produtos{
+        width: 430px;
+        height: 517px;
+        display: flex;
+        padding: 40px;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .Produtos{
+        width: 430px;
+        height: 517px;
+        padding: 40px;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    footer{
+        width: 454px;
+    }
+
+}
+  
+

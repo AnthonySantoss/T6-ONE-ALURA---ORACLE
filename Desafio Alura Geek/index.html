@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="/CSS/Stylo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <img class="logo" src="./Imagem/logo.png" alt="logo__Alura__Geek">
+    </header>
+
+    <main>
+        <div class="Produtos" >
+            <h1 class="titulo">Meus Produtos:</h1>
+            <div class="produto_conteiner" data-lista>
+            </div>
+            </div>
+        </div>
+        <div class="adicionar_produtos">
+            <h1 class="titulo">Adicionar <br> Produto:</h1>
+            <form id="form-novo-produto">
+                <input type="text" id="nome" placeholder="Nome do produto" required>
+                <input type="number" id="preco" placeholder="Preço" required>
+                <input type="text" id="imagem" placeholder="URL da imagem" required>
+                <div class="botao_conteiner">
+                <button type="submit" class="botao1">Guardar</button>
+                <button type="button" id="limpar-formulario" class="botao2">Limpar</button>
+                </div>
+                
+            </form>
+                </div>
+        </div>
+        
+        </form>
+    </main>
+    <footer>
+        <img src="Imagem/logo.png" alt="Alura Geek">
+        <div class="autor">
+            <p>DESENVOLVIDO POR ANTHONY SANTOS</p>
+            <P>ALURA LATAM 2024</P>
+        </div>
+    </footer>
+    <script src="./js/mostrarProdutos.js" type="module"></script>
+</body>
+</html>
